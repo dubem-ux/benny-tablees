@@ -1,0 +1,192 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.space11{
+    left: 835px;
+    width: 5000px;
+}
+/* html{ */
+    /* background-color:red ; */
+/* } */
+body{
+    background-color: white;
+    height: 990px;
+    width: 1444px;
+
+    display: grid;
+    grid-template: 'firstPage secondPage'auto
+                    / 1fr 1fr;
+    /* margin: auto; */
+}
+
+th,td{
+    border: 1px solid;
+    color: blue;
+    height: 40px;
+    
+}
+.first{
+    position: absolute;
+    border-bottom: 1px solid;
+    width:800px;
+    left: 100px;
+   
+    /* margin-bottom: 30px; */
+}
+.space9{
+    left: 310px;
+    /* right: 3000px; */
+    /* top: 30px; */
+    width: 350px;
+}
+.space10{
+    left: 365px;
+    width: 295px;
+}
+.space11{
+    left: 260px;
+    width: 400px;
+}
+
+#secondTable{
+    margin: 20px 0 0 370px;
+
+}
+
+.margin{
+   text-align: left;
+   padding: 0 0 0 20px;
+}
+td{
+    padding: 0px 0 0px 15px ;
+}
+.smallSpace{
+    width: 5px;
+    padding: 0;
+}
+.bigSpace{
+    width: 400px;
+    padding: 0 0 0 15px;
+}
+#firstPage{
+    grid-area: firstPage;
+    margin: 30px 0 0 40px;
+}
+#secondPage{
+    width: 665px;
+    grid-area: secondPage ;
+    border-left: 25px solid rgba(255, 0, 0, 0.698);
+    padding: 0px 0 0 30px;
+    /* margin-left: -30px; */
+}
+img{
+    width: 220px;
+    margin: 40px 0 0 190px;
+} 
+
+#main{
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 20px 0 0 30px;
+    color: rgba(218, 8, 8, 0.794);
+}
+h3,h2{
+    font-size: large;
+    margin: .5em 0 0 6.7em;
+    font-weight: bold;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h5{
+    font-weight: bold;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    font-size: xx-large;
+   margin: 3.5em 0 .5em 7.5em;
+}
+.report{
+    margin:.2em 0 2em 6em
+}
+
+.ButtomMargin{
+    margin-top: 1.5em;
+}
+.space1{
+    left: 834px;
+    width: 570px;
+}
+
+.space2{
+    left: 826px;
+    width:576px;
+}
+.space3{
+    left: 823px;
+    width:577px;
+
+}
+.space4{
+    left: 835px;
+    width:565px;
+}
+.space5{
+    left: 965px;
+    width:435px;
+}
+.space6{
+    left: 982px;
+    width:420px;
+}
+.space7{
+    left: 828px;
+    width:577px;
+}
+.space8{
+    left: 918px;
+    width:485px;
+}

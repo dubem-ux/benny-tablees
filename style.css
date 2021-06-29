@@ -1,0 +1,238 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    padding-left: 40px;
+}
+body{
+    width: 722px;
+}
+header{
+    padding-top: 30px;
+}
+img{
+    width: 70px;
+    opacity: 0.4;
+}
+
+h1{
+    margin: -75px 0 0 75px;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#h31{
+    margin: 0px 0 0 208px;
+}
+
+
+#h32{
+    margin: 0 0 0 240px;
+}
+#firstUp{
+    display: grid;
+    width: 630px;
+    /* background-color: red; */
+    grid-template: 'name space1 class space2 'auto;
+}
+#h41{
+    grid-area: name;
+    margin: 20px 0 0 20px;
+}
+#lineName{
+    width: 300px;
+    /* margin-left: -5px; */
+    grid-area: space1;
+    border-bottom: 1px solid;
+}
+#h42{
+    grid-area: class;
+    margin: 20px 0 0 0px;
+}
+#lineClass{
+    grid-area: space2;
+    width: 131px;
+    border-bottom: 1px solid;
+}
+#SecondUp{
+    display: grid;
+    margin-bottom: 10px;
+    width: 630px;
+    /* background-color: red; */
+    grid-template: 'no space3 position space4 'auto;
+}
+#h43{
+    grid-area: no;
+    margin: 10px 0 0 20px;
+}
+#lineNo{
+   grid-area: space3;
+   width: 210px;
+   margin-left: 0px;
+   border-bottom: 1px solid; 
+}
+#h44{
+    grid-area: position;
+    margin: 10px 0 0 0;
+}
+#linePosition{
+    grid-area: space4;
+    border-bottom: 1px solid;
+    width: 150px;
+}
+
+main{
+    padding: 2px;
+   
+    width: max-content;  
+    border: 1px solid;  
+}
+
+#rowline{
+    position: absolute;
+    left: 250px;
+    width: 200px;
+    height: 20px;
+    border-bottom: 1px solid;
+    /* background-color: red; */
+}
+
+#rowbottom{
+    position: absolute;
+    top: 717px;
+    left: 250px;
+    width: 200px;
+    height: 20px;
+    border-bottom: 1px solid;
+    /* background-color: red; */
+}
+
+#tableSection{
+    padding: 3px;
+    
+    border-collapse: collapse;
+    display: grid;
+    grid-template: 'child1 child2'auto
+                   'child3 child3';
+}
+
+#child1{
+    grid-area: child1;
+    margin-top: 20px;
+    
+}
+
+#child2{
+    margin-top: 20px;
+    grid-area: child2;
+    margin-left: 10px;
+}
+#child3{
+    grid-area: child3;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-collapse: collapse;
+}
+
+#child2 td{
+    height: 32px;
+    padding-left: 5px;
+    font-size: smaller;
+    /* padding-left: 5px; */
+    padding-bottom: 0;
+}
+#child2 #biggerTd{
+    height: 45px;
+}
+#child2 .aside{
+    height: 15px;
+}
+
+
+#child1, #child2,td{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#child2 .child2NoBorder{
+ border: none;
+}
+
+td{
+    height: 18px;
+    padding-left: 8px;
+    padding-bottom: 0;
+}
+
+.first  {
+    border:none
+}
+
+#mainTable{
+    border: 1px solid;
+}
+
+#baseman{
+    height: 20px;
+}
+#baseTd{
+    /* width: 200px; */
+    display: grid;
+    grid-template: '1 2 3 4'auto;
+}
+.base{
+    display: inline;
+    margin: 3px;
+
+}
+.basebox{
+    border: 1px solid;
+    height: 10px;
+    width: 50px;
+    margin: 5px 0 0 0;
+}
+
+ 
+
+    

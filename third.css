@@ -1,0 +1,85 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: middle;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    display: grid;
+    grid-template: 'section1 section2'auto;
+}
+#section1{
+    grid-area:section1 ;
+    margin: 30px 0 0 40px;
+}
+#section2{
+    grid-area: section2;
+    margin: 30px 0 0 40px;
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    /* font-weight: bold; */
+    border: 1px solid;
+    color: blue;
+    height: 40px;
+}
+.bigSpace{
+    width: 400px;
+    padding: 0 0 0 15px;
+    font-weight: bold;
+}
+.margin{
+    font-weight: bold;
+    text-align: left;
+    padding: 0 0 0 20px;
+ }
+ 
+ td{
+     padding: 10px 0 10px 15px ;
+     height: 30px;
+ }
+ .smallSpace{
+     width: 5px;
+     padding: 0;
+ }
